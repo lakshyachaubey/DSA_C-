@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int factorial(int n) {    // function ke argument me hm wo lihte h jo hmara data type hoga, aur jo hm function me pass krte h. function ke andar hm us data type ke variable ko use karte h
+int factorial(int n) {    // function ke arg ument me hm wo lihte h jo hmara data type hoga, aur jo hm function me pass krte h. function ke andar hm us data type ke variable ko use karte h
     int fact = 1;
     for(int i = 1; i <= n; i++) {
         fact *= i;

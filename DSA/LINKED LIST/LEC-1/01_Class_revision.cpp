@@ -5,7 +5,7 @@ class Student{
     string name;
     int rno;
     float marks;
-    Student(string n, int r, float m){
+    Student(string n, int r, float m){ 
         name = n;
         rno = r;
         marks = m;
@@ -35,6 +35,7 @@ int main() {
 
     Student *ptr = &s1;
     ptr->name = "Charlie";  // s1.name = charlie
+    // or (*ptr).name = "Charlie"; // s1.name = charlie
     cout << "Name after changing through pointer: " << s1.name << endl;
 
     return 0;

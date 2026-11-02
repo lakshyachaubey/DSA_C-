@@ -11,7 +11,7 @@ class Node{
         next = n;
     }
 
-    // Node(int d){
+    // Node(int d){  //also valid ,because we used default value of all the next as NULL,    // Also hm constructor ke andar kitne bhi parameter le skte h 
     //     data = d;
     //     next = NULL;
     // }

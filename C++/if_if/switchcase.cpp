@@ -29,3 +29,6 @@
         cout<<  ;
 }
     */
+
+
+    // if break is not used then first true case ke baad ke saare cases by default print ho jate h 

@@ -14,13 +14,14 @@ int main() {
 
     int low = 0;
     int high = n-1;
-
+    bool flag = false;
     while(low<=high){
 
         int mid = low + (high-low)/2;
 
         if(arr[mid] == x) {
             cout<<arr[mid]<<"\nTarget found"<<endl;
+            flag = true;
             break;
         }
         else if(arr[mid] < x){
@@ -30,5 +31,8 @@ int main() {
             high = mid-1;
         }
     }
+    if(flag == false){
+        cout<<"Target missing"<<endl;
+    };
     return 0;
 }

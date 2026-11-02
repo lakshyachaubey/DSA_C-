@@ -22,7 +22,7 @@ int main() {
                 int minidx = -1;
                 for(int j = i; j<n; j++){    // to find min element and its index
                     if(arr[j]<min){
-                        min = arr[j];
+                        min = arr[j];  
                         minidx = j;
                     }
                 }  
@@ -33,12 +33,9 @@ int main() {
             // for int element in arr
             cout<<ele<<" ";
         }
+        cout<<endl;
     }
 
-    for(int ele : arr){    // This is called for each loop;
-        // for int element in arr
-        cout<<ele<<" ";
-    }
     for(int ele : arr){    // This is called for each loop;
         // for int element in arr
         cout<<ele<<" ";

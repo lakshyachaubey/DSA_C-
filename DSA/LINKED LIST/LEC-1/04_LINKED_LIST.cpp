@@ -27,7 +27,7 @@ int main() {
     // printing the value of value of b using a
 
     // FIRST REVISE
-    // if     *ptr = &a;
+    // if     *ptr = &a;   // a is an object of Node class
     //  then  ptr->data  == (*p).data == a.data      will give the data of a  
     
     Node *ptr = &a;   // Made a new pointer pointing the first node a
